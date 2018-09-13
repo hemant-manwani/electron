@@ -92,10 +92,6 @@ patches:
   description: null
 -
   author: null
-  file: browser_plugin_wheel.patch
-  description: null
--
-  author: null
   file: build_toolchain_win_patch.patch
   description: |
     Patch the Windows build toolchain to generate unique PDB names
@@ -208,10 +204,6 @@ patches:
 -
   author: Aleksei Kuzmin <alkuzmin@microsoft.com>
   file: statically_build_power_save_blocker.patch
-  description: null
--
-  author: Tomas Rycl <torycl@microsoft.com>
-  file: browser_plugin_guest.patch
   description: null
 -
   author: Aleksei Kuzmin <alkuzmin@microsoft.com>
