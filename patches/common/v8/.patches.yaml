@@ -12,10 +12,6 @@ patches:
     when we override ReallocateBufferMemory, so we therefore need to implement
     Realloc on the v8 side.
 -
-  author: Ales Pergl <alpergl@microsoft.com>
-  file: build_gn.patch
-  description: null
--
   author: Cheng Zhao <zcbenz@gmail.com>
   file: array_buffer.patch
   description: null
