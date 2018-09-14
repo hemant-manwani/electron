@@ -425,7 +425,7 @@ const startServer = ({ callback, processType, done }) => {
       if (error) throw error
       if (called) return
       called = true
-      assert.strictEqual(fields.prod, 'Electron')
+      assert.deepStrictEqual(fields.prod, ['Electron'])
       assert.strictEqual(fields.ver, process.versions.electron)
       assert.strictEqual(fields.process_type, processType)
       assert.strictEqual(fields.platform, process.platform)
