@@ -140,10 +140,6 @@ patches:
   file: net_url_request_job.patch
   description: null
 -
-  author: Aleksei Kuzmin <alkuzmin@microsoft.com>
-  file: no_stack_dumping.patch
-  description: null
--
   author: deepak1556 <hop2deep@gmail.com>
   file: out_of_process_instance.patch
   description: null
